@@ -60,9 +60,14 @@ const data = {
     },
     {
       title: "Team",
-      url: "#",
+      url: "/team",
       icon: IconUsers,
     },
+    {
+      title: "Example",
+      url: "/",
+      icon: IconFileDescription,
+    }
   ],
   navClouds: [
     {
