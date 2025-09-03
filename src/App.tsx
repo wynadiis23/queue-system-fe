@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom"
+import Live from "./pages/Live"
 import { ModeToggle } from "./components/mode-toggle"
 import { ThemeProvider } from "./components/theme-provider"
 import Dashboard from "./pages/Dashboard"
-import Example from "./pages/Example"
+import { Example } from "./pages/Example"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Example />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/live" element={<Live />} />
       </Routes>
     </ThemeProvider>
   )

@@ -33,9 +33,9 @@ const data = {
   navMain: [
     {
       title: "Live",
-      url: "#",
+      url: "/live",
       icon: IconDashboard,
-    }
+    },
   ],
   navSecondary: [
     {
