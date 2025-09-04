@@ -1,0 +1,144 @@
+{
+    "id": "e9cc3ded-24a7-4639-b07b-49920bc1dc0c",
+    "createdAt": "2025-09-04T20:55:34.489Z",
+    "createdBy": "SYSTEM",
+    "updatedAt": "2025-09-04T20:55:34.489Z",
+    "updatedBy": "SYSTEM",
+    "deletedAt": null,
+    "version": 1,
+    "name": "Annual Evaluation 2025",
+    "year": 2025,
+    "description": "Comprehensive evaluation for the year 2025.",
+    "components": [
+        {
+            "id": "88101580-663f-478f-a881-07be6e81c966",
+            "createdAt": "2025-09-04T20:55:34.489Z",
+            "createdBy": "SYSTEM",
+            "updatedAt": "2025-09-04T20:55:34.489Z",
+            "updatedBy": "SYSTEM",
+            "deletedAt": null,
+            "version": 1,
+            "name": "Component A",
+            "description": "Description for Component A",
+            "evaluation": "e9cc3ded-24a7-4639-b07b-49920bc1dc0c",
+            "subComponents": [
+                {
+                    "id": "ddcd5c21-f53d-433c-a0a9-9358ec381fc5",
+                    "createdAt": "2025-09-04T20:55:34.489Z",
+                    "createdBy": "SYSTEM",
+                    "updatedAt": "2025-09-04T20:55:34.489Z",
+                    "updatedBy": "SYSTEM",
+                    "deletedAt": null,
+                    "version": 1,
+                    "name": "SubComponent A1",
+                    "description": "Loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Description for SubComponent A1",
+                    "component": "88101580-663f-478f-a881-07be6e81c966",
+                    "criterias": [
+                        {
+                            "id": "77e3bc3e-f99c-4ba4-9879-5b2da4e9b3c1",
+                            "createdAt": "2025-09-04T20:55:34.489Z",
+                            "createdBy": "SYSTEM",
+                            "updatedAt": "2025-09-04T20:55:34.489Z",
+                            "updatedBy": "SYSTEM",
+                            "deletedAt": null,
+                            "version": 1,
+                            "name": "Criteria A1-1",
+                            "subComponent": "ddcd5c21-f53d-433c-a0a9-9358ec381fc5"
+                        },
+                        {
+                            "id": "22052395-2d4b-4ac8-9e86-a95b838e64f5",
+                            "createdAt": "2025-09-04T20:55:34.490Z",
+                            "createdBy": "SYSTEM",
+                            "updatedAt": "2025-09-04T20:55:34.490Z",
+                            "updatedBy": "SYSTEM",
+                            "deletedAt": null,
+                            "version": 1,
+                            "name": "Criteria A1-2",
+                            "subComponent": "ddcd5c21-f53d-433c-a0a9-9358ec381fc5"
+                        }
+                    ]
+                },
+                {
+                    "id": "5d22a7ea-2759-4e15-b072-5aed83d4c4f8",
+                    "createdAt": "2025-09-04T20:55:34.491Z",
+                    "createdBy": "SYSTEM",
+                    "updatedAt": "2025-09-04T20:55:34.491Z",
+                    "updatedBy": "SYSTEM",
+                    "deletedAt": null,
+                    "version": 1,
+                    "name": "SubComponent A2",
+                    "description": null,
+                    "component": "88101580-663f-478f-a881-07be6e81c966",
+                    "criterias": [
+                        {
+                            "id": "c2d9b12e-188a-4c26-b205-232883db44aa",
+                            "createdAt": "2025-09-04T20:55:34.491Z",
+                            "createdBy": "SYSTEM",
+                            "updatedAt": "2025-09-04T20:55:34.491Z",
+                            "updatedBy": "SYSTEM",
+                            "deletedAt": null,
+                            "version": 1,
+                            "name": "Criteria A2-1",
+                            "subComponent": "5d22a7ea-2759-4e15-b072-5aed83d4c4f8",
+                            "documents": [
+                                {
+                                    "id": "1ae822c5-a4f3-4224-86c6-66288675d9c2",
+                                    "createdAt": "2025-09-04T22:12:18.319Z",
+                                    "createdBy": "SYSTEM",
+                                    "updatedAt": "2025-09-04T22:12:18.319Z",
+                                    "updatedBy": "SYSTEM",
+                                    "version": 1,
+                                    "entityId": "c2d9b12e-188a-4c26-b205-232883db44aa",
+                                    "entityType": "criteria",
+                                    "filename": "1757023938185-782249706-chris-lee-70l1tDAI6rM-unsplash.jpg",
+                                    "filepath": "uploads/criteria/c2d9b12e-188a-4c26-b205-232883db44aa/1757023938185-782249706-chris-lee-70l1tDAI6rM-unsplash.jpg",
+                                    "mimetype": "image/jpeg",
+                                    "size": 1314806
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7a9b3cef-9aef-41de-b67f-6733fa9d8c66",
+            "createdAt": "2025-09-04T20:55:34.491Z",
+            "createdBy": "SYSTEM",
+            "updatedAt": "2025-09-04T20:55:34.491Z",
+            "updatedBy": "SYSTEM",
+            "deletedAt": null,
+            "version": 1,
+            "name": "Component B",
+            "description": null,
+            "evaluation": "e9cc3ded-24a7-4639-b07b-49920bc1dc0c",
+            "subComponents": [
+                {
+                    "id": "26e7aa1f-9f55-46b2-9cad-74bad49b8c4d",
+                    "createdAt": "2025-09-04T20:55:34.491Z",
+                    "createdBy": "SYSTEM",
+                    "updatedAt": "2025-09-04T20:55:34.491Z",
+                    "updatedBy": "SYSTEM",
+                    "deletedAt": null,
+                    "version": 1,
+                    "name": "SubComponent B1",
+                    "description": "Description for SubComponent B1",
+                    "component": "7a9b3cef-9aef-41de-b67f-6733fa9d8c66",
+                    "criterias": [
+                        {
+                            "id": "1ed8911c-4660-4371-84cc-b8838de840b9",
+                            "createdAt": "2025-09-04T20:55:34.491Z",
+                            "createdBy": "SYSTEM",
+                            "updatedAt": "2025-09-04T20:55:34.491Z",
+                            "updatedBy": "SYSTEM",
+                            "deletedAt": null,
+                            "version": 1,
+                            "name": "Criteria B1-1",
+                            "subComponent": "26e7aa1f-9f55-46b2-9cad-74bad49b8c4d"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

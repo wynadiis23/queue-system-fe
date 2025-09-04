@@ -4,6 +4,8 @@ import { ModeToggle } from "./components/mode-toggle"
 import { ThemeProvider } from "./components/theme-provider"
 import Dashboard from "./pages/Dashboard"
 import { Example } from "./pages/Example"
+import AdminQueue from "./pages/admin/Queue"
+import Report from "./pages/admin/report/Report"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Example />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/live" element={<Live />} />
+        <Route path="/admin/queue" element={<AdminQueue />} />
+        <Route path="/admin/report" element={<Report />} />
       </Routes>
     </ThemeProvider>
   )
