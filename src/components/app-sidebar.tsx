@@ -62,7 +62,7 @@ const data = {
     },
     {
       name: "Reports",
-      url: "#",
+      url: "/admin/report",
       icon: IconReport,
     },
     {

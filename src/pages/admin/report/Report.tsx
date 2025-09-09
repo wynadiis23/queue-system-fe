@@ -5,10 +5,10 @@ import data from "./data.json";
 import React, { useState } from "react";
 import { ChevronDown, ChevronRight, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { SectionCards } from "../../../components/section-cards";
+import { ReportSectionCards } from "@/components/report-section-cards";
 import { DetailSheet, type DetailItem } from "./DetailSheet";
 
-type RequiredDocument = {
+export type RequiredDocument = {
     id: string;
     name: string;
     description: string;
@@ -89,7 +89,7 @@ function NestedTable({ evaluation }: { evaluation: Evaluation }) {
                     <tr className="bg-muted">
                         <th className="px-4 py-2 text-left">Evaluation</th>
                         <th className="px-4 py-2 text-left">Component</th>
-                        <th className="px-4 py-2 text-left">SubComponent</th>
+                        <th className="px-4 py-2 text-left">Sub Component</th>
                         <th className="px-4 py-2 text-left">Criteria</th>
                     </tr>
                 </thead>
@@ -254,7 +254,7 @@ export default function Report() {
                 <div className="flex flex-1 flex-col">
                     <div className="@container/main flex flex-1 flex-col gap-2">
                         <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
-                            <SectionCards />
+                            <ReportSectionCards evaluation={data} />
                             <div className="px-4 lg:px-6">
                                 <h2 className="text-lg font-semibold mb-4">Evaluation Report</h2>
                                 <NestedTable evaluation={data as Evaluation} />
